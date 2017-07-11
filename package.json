@@ -4,14 +4,22 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "commitmsg": "validate-commit-msg",
+    "commit": "git-cz",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [],
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com>",
   "devDependencies": {
+    "commitizen": "^2.9.6",
     "cracks": "^3.1.2",
+    "cz-conventional-changelog": "^2.0.0",
+    "husky": "^0.14.3",
     "semantic-release": "^6.3.6",
-    "tape": "^4.7.0"
+    "tape": "^4.7.0",
+    "validate-commit-msg": "^2.12.2"
   },
   "release": {
     "verifyRelease": "cracks"
@@ -29,5 +37,10 @@
   },
   "homepage": "https://github.com/mikeal/hashes-stream#readme",
   "license": "Apache-2.0",
-  "description": "421c76d77563afa1914846b010bd164f395bd34c2102e5e99e0cb9cf173c1d87"
+  "description": "421c76d77563afa1914846b010bd164f395bd34c2102e5e99e0cb9cf173c1d87",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
