@@ -1,5 +1,5 @@
 let test = require('tape')
-let hashing = require('./')
+let hashing = require('../')
 
 test('basic sha256, one chunk', t => {
   t.plan(2)

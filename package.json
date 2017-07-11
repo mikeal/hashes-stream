@@ -3,7 +3,7 @@
   "version": "0.0.0-development",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
+    "test": "tape tests/*.js",
     "precommit": "npm test",
     "prepush": "npm test",
     "commitmsg": "validate-commit-msg",
