@@ -1,0 +1,19 @@
+{
+  "name": "hashing-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.7.0"
+  },
+  "dependencies": {
+    "once": "^1.4.0",
+    "through2": "^2.0.3"
+  }
+}
