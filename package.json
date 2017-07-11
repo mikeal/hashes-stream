@@ -1,14 +1,16 @@
 {
   "name": "hashes-stream",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [],
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com>",
   "devDependencies": {
-    "tape": "^4.7.0"
+    "tape": "^4.7.0",
+    "semantic-release": "^6.3.6"
   },
   "dependencies": {
     "once": "^1.4.0",
@@ -16,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikeal/hashes-stream.git"
+    "url": "https://github.com/mikeal/hashes-stream.git"
   },
   "bugs": {
     "url": "https://github.com/mikeal/hashes-stream/issues"
