@@ -1,19 +1,27 @@
 {
-  "name": "hashing-stream",
+  "name": "hashes-stream",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "keywords": [],
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com>",
-  "license": "ISC",
   "devDependencies": {
     "tape": "^4.7.0"
   },
   "dependencies": {
     "once": "^1.4.0",
     "through2": "^2.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeal/hashes-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikeal/hashes-stream/issues"
+  },
+  "homepage": "https://github.com/mikeal/hashes-stream#readme",
+  "license": "Apache-2.0",
+  "description": "421c76d77563afa1914846b010bd164f395bd34c2102e5e99e0cb9cf173c1d87"
 }
