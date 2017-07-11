@@ -9,8 +9,12 @@
   "keywords": [],
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com>",
   "devDependencies": {
-    "tape": "^4.7.0",
-    "semantic-release": "^6.3.6"
+    "cracks": "^3.1.2",
+    "semantic-release": "^6.3.6",
+    "tape": "^4.7.0"
+  },
+  "release": {
+    "verifyRelease": "cracks"
   },
   "dependencies": {
     "once": "^1.4.0",
